@@ -1,0 +1,115 @@
+.sign_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+label {
+    text-align: left;
+}
+
+main {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.create_href {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(12, 66, 142, 0.733);
+    text-decoration: none;
+}
+
+.enter_with {
+    font-weight: bold;
+    color: rgba(17, 75, 157, 0.555);
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.login_btn {
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(90deg, #4e9eff, #cd4efc);
+    border: 0px solid transparent;
+    border-radius: 25px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgb(6, 43, 95);
+}
+
+.input_bottom {
+    font-weight: bold;
+    color: rgba(17, 75, 157, 0.555);
+    font-size: 13px;
+    margin-left: 140px;
+}
+
+.input_title {
+    font-weight: bold;
+    color: rgba(12, 66, 142, 0.733);
+    margin-top: 20px;
+    margin-right: 140px;
+    font-size: 15px;
+}
+
+.input_img {
+    height: 20px;
+    width: 20px;
+}
+
+.text_field {
+    border: none;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    outline: none;
+    color: rgb(6, 43, 95);
+}
+
+input::before {
+    content: url("../img/user.png");
+    margin-right: 10px;
+  }
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid rgba(17, 75, 157, 0.555);
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+  
+input::-webkit-input-placeholder {
+    color: #999;
+}
+  
+input::-moz-placeholder {
+    color: #999;
+}
+  
+input:-ms-input-placeholder {
+    color: #999;
+}
+  
+input::-placeholder {
+    color: #999;
+}
