@@ -15,8 +15,8 @@ main {
     border-radius: 15px;
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .footer {
@@ -67,7 +67,7 @@ h3 {
     font-weight: bold;
     color: rgba(12, 66, 142, 0.733);
     margin-top: 20px;
-    margin-right: 140px;
+    margin-right: 195px;
     font-size: 15px;
 }
 
@@ -83,10 +83,16 @@ h3 {
     color: rgb(6, 43, 95);
 }
 
-input::before {
-    content: url("../img/user.png");
-    margin-right: 10px;
-  }
+.email_field {
+    background: url("../img/user.png") no-repeat 7px 7px;
+    padding: 5px 5px 5px 35px;
+
+}
+
+.password_field{
+    background: url("../img/password.png") no-repeat 7px 7px;
+    padding: 5px 5px 5px 35px;
+}
 
 input:focus {
     border: none;
